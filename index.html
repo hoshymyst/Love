@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYP<!DOCTYPE E html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"/>
@@ -29,7 +29,7 @@
     }
     .overlay .center-message {
       font: 3rem monospace;
-      color: #ff69b4;
+      color: #ff0000;
       opacity: 0.8;
       text-align: center;
     }
@@ -61,7 +61,7 @@
     function drawMatrix() {
       ctx.fillStyle = "rgba(0,0,0,0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "#ff69b4";
+      ctx.fillStyle = "#ff0000";
       drops.forEach((y, i) => {
         const x = i * fontSize * 4;
         ctx.fillText(text, x, y * fontSize);
